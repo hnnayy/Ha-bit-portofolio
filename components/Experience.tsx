@@ -128,12 +128,12 @@ export default function Experience(): React.JSX.Element {
 
         {/* Tab Bar - Orange Background seperti gambar */}
         <div className="flex justify-center bg-orange-500 rounded-lg p-4 mb-12 shadow-lg">
-          <div className="flex gap-12 relative">
+          <div className="flex flex-wrap gap-4 md:gap-8 lg:gap-12 relative justify-center">
             {tabs.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
-                className="relative px-6 py-3 text-white font-semibold text-lg tracking-wide transition-colors duration-200 hover:text-yellow-200"
+                className="relative px-4 md:px-6 py-3 text-white font-semibold text-base md:text-lg tracking-wide transition-colors duration-200 hover:text-yellow-200"
               >
                 {tab.label}
 
