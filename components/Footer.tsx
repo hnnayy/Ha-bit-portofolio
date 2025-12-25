@@ -1,5 +1,7 @@
 "use client";
 
+import React from "react";
+
 export default function Footer(): React.JSX.Element {
   return (
     <footer className="w-full mt-5 bg-white text-gray-900">

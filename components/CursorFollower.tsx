@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { getImageKitUrl } from "../utils/imagekit";
 // using a plain <img> from /public to avoid image optimization issues during dev
 
-export default function CursorFollower(): JSX.Element {
+export default function CursorFollower(): React.JSX.Element {
   const handRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
   const starRef = useRef<HTMLDivElement | null>(null);
