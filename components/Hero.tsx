@@ -38,10 +38,17 @@ export default function Hero(): React.JSX.Element {
 
         {/* Right column: illustration */}
         <div className="flex justify-end">
-          <div className="w-full max-w-lg">
-            <Image src="/tes.png" alt="Logo" width={900} height={700} className="object-cover" />
-          </div>
-        </div>
+  <div className="w-full max-w-lg">
+    <Image 
+      src={getImageKitUrl("web-porto/logo.png")} 
+      alt="Nadia Mutia Hanin - Personal Logo" 
+      width={900} 
+      height={700} 
+      className="object-contain drop-shadow-2xl" 
+      priority 
+    />
+  </div>
+</div>
 
       </div>
     </section>
