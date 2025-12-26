@@ -1,32 +1,49 @@
-# Nadia Mutia H. - Personal Portfolio
+# Nadia Mutia H. – Personal Portfolio
 
 [![Vercel Deploy](https://vercel.com/button)](https://ha-bit-portofolio.vercel.app/)
 
-Welcome to my personal portfolio.  
-I am Nadia Mutia H., a Fullstack and Mobile Developer specializing in Mobile Development, Full-stack Web, Machine Learning, and GIS-based Systems.
+Personal portfolio showcasing my work as a **Fullstack & Mobile Developer** with a focus on **Mobile Apps** and **Full-stack Web Systems**.
 
-> "Engineering efficient solutions for complex digital challenges."
-
-### Live Demo
-Visit my portfolio website:  
-[https://ha-bit-portofolio.vercel.app/](https://ha-bit-portofolio.vercel.app/)
-
-### Demo Video
-<video src="https://drive.google.com/uc?export=download&id=1WEJJMpLZGk5aOYD6O8UHWv6rE047BswI" controls width="100%"></video>
-
-### Technologies & Skills
-- Mobile: Flutter, GIS, GPS, Real-time Data, Firebase
-- Full-stack Web: CodeIgniter 4, PHP, MySQL, JWT, RBAC
-- Frontend: Next.js, React.js, Tailwind CSS, JavaScript, HTML5, CSS3
-- Other: REST API, JSON, Python, Agile, Vercel
-
-### Highlight Projects
-- PLN JagaGRID: Mobile GIS app for mapping risks along power lines with real-time GPS and photo uploads (Flutter, Firebase)
-- Document Management System: Enterprise web system with JWT auth, role-based access, and automated workflows (CodeIgniter 4, PHP, MySQL)
-- X Clone: Responsive social media clone with real-time features (Next.js, Tailwind CSS, Vercel)
-- Population Mapping Dashboard: Demographic data visualization tool with real-time Firebase integration (React.js, Python)
+> *Engineering efficient solutions for complex digital challenges.*
 
 ---
 
-If this portfolio is useful, feel free to ⭐ the repo. 
-Feel free to reach out for collaborations: Check my [CV here](https://drive.google.com/file/d/1bFAnMwQoskOHiFVD1WDSQB-0tHVjqV66/view)
+## Live Demo
+🔗 https://ha-bit-portofolio.vercel.app/
+
+---
+
+## Demo Preview (Auto Play)
+
+<!-- Autoplay demo video (muted & loop for README compatibility) -->
+<video src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/demo.mp4"
+       autoplay
+       muted
+       loop
+       playsinline
+       width="100%">
+</video>
+
+📹 Full demo video (backup):  
+https://drive.google.com/file/d/1WEJJMpLZGk5aOYD6O8UHWv6rE047BswI/view
+
+---
+
+## Technologies & Skills
+- **Mobile**: Flutter, GIS, GPS, Real-time Data, Firebase  
+- **Full-stack Web**: CodeIgniter 4, PHP, MySQL, JWT, RBAC  
+- **Frontend**: Next.js, React.js, Tailwind CSS, JavaScript, HTML5, CSS3  
+- **Other**: REST API, JSON, Python, Agile, Vercel  
+
+---
+
+## Highlight Projects
+- **PLN JagaGRID** – Mobile GIS app for risk mapping along power lines with real-time GPS & photo uploads  
+- **Document Management System** – Enterprise web system with JWT authentication and role-based access control  
+- **X Clone** – Responsive social media clone with real-time features  
+- **Population Mapping Dashboard** – Demographic data visualization with Firebase integration  
+
+---
+
+⭐ Star this repository if it’s useful  
+📄 CV: https://drive.google.com/file/d/1bFAnMwQoskOHiFVD1WDSQB-0tHVjqV66/view
