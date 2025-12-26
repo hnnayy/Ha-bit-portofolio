@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nadia Mutia H. - Personal Portfolio
 
-## Getting Started
+[![Vercel Deploy](https://vercel.com/button)](https://ha-bit-portofolio.vercel.app/)
 
-First, run the development server:
+Welcome to my personal portfolio!  
+I'm **Nadia Mutia H.**, a Fullstack and Mobile Developer specializing in Mobile Development, Full-stack Web, Machine Learning, and GIS-based Systems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> "Engineering efficient solutions for complex digital challenges."
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Live Demo
+Visit my portfolio website:  
+[**https://ha-bit-portofolio.vercel.app/**](https://ha-bit-portofolio.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📸 Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Portfolio Preview](https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F2a9mwvHroalOMFl3T8NJAT%2Faf9f53fb2bf51ac71c981a145acb3a92%2Fmagic-portfolio-vercel.jpg&w=3840&q=75)
 
-## Learn More
+*(Modern Next.js portfolio preview – your site has a similar clean, minimalist design! For a more accurate screenshot, take one of your live site and upload it to the repo as `preview.png`.)*
 
-To learn more about Next.js, take a look at the following resources:
+### 🛠️ Technologies & Skills
+- **Mobile**: Flutter, GIS, GPS, Real-time Data, Firebase
+- **Full-stack Web**: CodeIgniter 4, PHP, MySQL, JWT, RBAC
+- **Frontend**: Next.js, React.js, Tailwind CSS, JavaScript, HTML5, CSS3
+- **Other**: REST API, JSON, Python, Agile, Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🌟 Highlight Projects
+- **PLN JagaGRID** → Mobile GIS app for mapping risks along power lines with real-time GPS and photo uploads (Flutter, Firebase)
+- **Document Management System** → Enterprise web system with JWT auth, role-based access, and automated workflows (CodeIgniter 4, PHP, MySQL)
+- **X Clone** → Responsive social media clone with real-time features (Next.js, Tailwind CSS, Vercel)
+- **Population Mapping Dashboard** → Demographic data visualization tool with real-time Firebase integration (React.js, Python)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📂 Website Sections
+- **Home** → Introduction and overview
+- **Works** → Featured projects
+- **Experience** → Professional timeline
+- **Achievement** → Awards and credentials
 
-## Deploy on Vercel
+Deployed with ❤️ on **Vercel**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ If you like it, star this repo!  
+Feel free to reach out for collaborations: Check my [CV here](https://drive.google.com/file/d/1bFAnMwQoskOHiFVD1WDSQB-0tHVjqV66/view)
