@@ -11,9 +11,8 @@ I am Nadia Mutia H., a Fullstack and Mobile Developer specializing in Mobile Dev
 Visit my portfolio website:  
 [https://ha-bit-portofolio.vercel.app/](https://ha-bit-portofolio.vercel.app/)
 
-### Preview
-
-![Portfolio Preview](https://drive.google.com/uc?export=view&id=1WEJJMpLZGk5aOYD6O8UHWv6rE047BswI)
+### Demo Video
+<video src="https://drive.google.com/uc?export=download&id=1WEJJMpLZGk5aOYD6O8UHWv6rE047BswI" controls width="100%"></video>
 
 ### Technologies & Skills
 - Mobile: Flutter, GIS, GPS, Real-time Data, Firebase
