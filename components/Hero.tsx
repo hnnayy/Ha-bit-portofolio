@@ -23,7 +23,7 @@ export default function Hero(): React.JSX.Element {
 
           <div>
             <a
-              href="https://drive.google.com/file/d/1bFAnMwQoskOHiFVD1WDSQB-0tHVjqV66/view"
+              href="https://drive.google.com/file/d/1ECVXT4SMR1nEr52L5QBJq0XyHuEkrLnz/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-4 bg-white text-orange-500 px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg"
