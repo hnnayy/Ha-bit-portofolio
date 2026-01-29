@@ -28,4 +28,4 @@ https://github.com/user-attachments/assets/97f0afa9-8ec1-4bc7-8a93-e41d05bb6857
 ---
 
 If you like it, star this repo.  
-Feel free to reach out for collaborations: Check my [CV here](https://drive.google.com/file/d/1bFAnMwQoskOHiFVD1WDSQB-0tHVjqV66/view)
+Feel free to reach out for collaborations: Check my [CV here](https://drive.google.com/file/d/1ECVXT4SMR1nEr52L5QBJq0XyHuEkrLnz/view?usp=sharing)
