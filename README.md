@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nadia Mutia H. - Personal Portfolio
 
-## Getting Started
+Welcome to my personal portfolio.  
+I am Nadia Mutia H., a Fullstack and Mobile Developer specializing in Mobile Development, Full-stack Web, Machine Learning, and GIS-based Systems.
 
-First, run the development server:
+> "Engineering efficient solutions for complex digital challenges."
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Live Demo
+Visit my portfolio website:  
+[https://ha-bit-portofolio.vercel.app/](https://ha-bit-portofolio.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Demo Video
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+https://github.com/user-attachments/assets/97f0afa9-8ec1-4bc7-8a93-e41d05bb6857
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Technologies & Skills
+- Mobile: Flutter, GIS, GPS, Real-time Data, Firebase
+- Full-stack Web: CodeIgniter 4, PHP, MySQL, JWT, RBAC
+- Frontend: Next.js, React.js, Tailwind CSS, JavaScript, HTML5, CSS3
+- Other: REST API, JSON, Python, Agile, Vercel
 
-## Learn More
+### Highlight Projects
+- PLN JagaGRID: Mobile GIS app for mapping risks along power lines with real-time GPS and photo uploads (Flutter, Firebase)
+- Document Management System: Enterprise web system with JWT auth, role-based access, and automated workflows (CodeIgniter 4, PHP, MySQL)
+- X Clone: Responsive social media clone with real-time features (Next.js, Tailwind CSS, Vercel)
+- Population Mapping Dashboard: Demographic data visualization tool with real-time Firebase integration (React.js, Python)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like it, star this repo.  
+Feel free to reach out for collaborations: Check my [CV here](https://drive.google.com/file/d/1bFAnMwQoskOHiFVD1WDSQB-0tHVjqV66/view)
