@@ -25,6 +25,17 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
+    category: "Mobile Application Security",
+    title: "Automated Mobile SAST and DAST System",
+    subtitle:
+      "An automated mobile security testing pipeline that integrates SAST and DAST using Jenkins, Frida, Android Emulator, and automated security reporting Dashboard also send the reports for developer's email.",
+    webUrl: "https://www.youtube-nocookie.com/embed/VdIIOCMCzy4",
+    githubUrl: "https://github.com/hnnayy/security-mobile",
+    embed: true,
+    tags: ["Jenkins", "Automated Testing", "Frida", "SAST", "DAST", "Android"],
+  },
+  {
+    id: 2,
     category: "Mobile GIS • Flutter",
     title: "PLN JagaGRID",
     subtitle:
@@ -34,7 +45,7 @@ const projects: Project[] = [
     tags: ["Flutter", "GIS", "GPS", "Real-time Data", "Firebase"],
   },
   {
-    id: 2,
+    id: 3,
     category: "Full-Stack Web",
     title: "Document Management System",
     subtitle:
@@ -45,7 +56,7 @@ const projects: Project[] = [
   },
   
 {
-  id: 3,
+  id: 4,
   category: "Project Management",
   title: "Agile Project Management Documentation",
   subtitle:
@@ -56,17 +67,7 @@ const projects: Project[] = [
   embed: false,
   tags: ["Agile", "Notion", "Sprint Planning", "Project Management"],
 },
-{
-    id: 4,
-    category: "Mobile Application Security",
-    title: "Automated Mobile SAST and DAST System",
-    subtitle:
-      "An automated mobile security testing pipeline that integrates SAST and DAST using Jenkins, Frida, Android Emulator, and automated security reporting Dashboard also send the reports for developer's email.",
-    webUrl: "https://www.youtube-nocookie.com/embed/VdIIOCMCzy4",
-    githubUrl: "https://github.com/hnnayy/security-mobile",
-    embed: true,
-    tags: ["Jenkins", "Automated Testing", "Frida", "SAST", "DAST", "Android"],
-  },
+
   {
     id: 5,
     category: "Social Media Clone",
