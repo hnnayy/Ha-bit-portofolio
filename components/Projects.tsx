@@ -13,6 +13,7 @@ type Project = {
   image?: string;
   videoSrc?: string;
   webUrl?: string;
+  githubUrl?: string;
 
   // true atau undefined: tampilkan website menggunakan iframe
   // false: tampilkan screenshot dan buka link di tab baru
@@ -29,6 +30,7 @@ const projects: Project[] = [
     subtitle:
       "Mobile GIS application for power line risk mapping, featuring real-time GPS reporting and high-resolution photo uploads.",
     videoSrc: getImageKitUrl("web-porto/PLN_JagaGRID.mp4"),
+    githubUrl: "https://github.com/hnnayy/PLN-JagaGRID-New",
     tags: ["Flutter", "GIS", "GPS", "Real-time Data", "Firebase"],
   },
   {
@@ -38,6 +40,7 @@ const projects: Project[] = [
     subtitle:
       "Enterprise-grade web system featuring JWT authentication, granular role-based access control, and automated approval workflows.",
     videoSrc: getImageKitUrl("web-porto/dms.mp4"),
+    githubUrl: "https://github.com/hnnayy/magang-DMS",
     tags: ["CodeIgniter 4", "PHP", "MySQL"],
   },
   
@@ -53,23 +56,36 @@ const projects: Project[] = [
   embed: false,
   tags: ["Agile", "Notion", "Sprint Planning", "Project Management"],
 },
-  {
+{
     id: 4,
+    category: "Mobile Application Security",
+    title: "Automated Mobile SAST and DAST System",
+    subtitle:
+      "An automated mobile security testing pipeline that integrates SAST and DAST using Jenkins, Frida, Android Emulator, and automated security reporting Dashboard also send the reports for developer's email.",
+    webUrl: "https://www.youtube-nocookie.com/embed/VdIIOCMCzy4",
+    githubUrl: "https://github.com/hnnayy/security-mobile",
+    embed: true,
+    tags: ["Jenkins", "Automated Testing", "Frida", "SAST", "DAST", "Android"],
+  },
+  {
+    id: 5,
     category: "Social Media Clone",
     title: "X Clone",
     subtitle:
       "A modern social media platform clone built with Next.js, featuring real-time updates and responsive design.",
     webUrl: "https://x-clone-ui-taupe.vercel.app/",
+    githubUrl: "https://github.com/hnnayy/x-clone-ui",
     embed: true,
     tags: ["Next.js", "Tailwind CSS", "Vercel"],
   },
   {
-    id: 5,
+    id: 6,
     category: "Data Visualization",
     title: "Population Mapping Dashboard",
     subtitle:
       "Scalable data visualization system for demographic analysis built with React.js and real-time Firebase integration.",
     webUrl: "https://citizen-information.vercel.app/",
+    githubUrl: "https://github.com/hnnayy/population-mapping",
     embed: true,
     tags: [
       "React",
@@ -180,27 +196,28 @@ export default function Projects(): React.JSX.Element {
                     </div>
                   </div>
 
-                  <div className="rounded-md bg-[#ff6b58]/20 p-2">
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      className="text-white opacity-90"
-                      xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true"
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Open GitHub repository for ${project.title}`}
+                      title="View GitHub repository"
+                      className="rounded-md bg-[#ff6b58]/20 p-2 text-white transition hover:scale-110 hover:bg-[#ff6b58]/40"
                     >
-                      <rect
-                        x="3"
-                        y="3"
-                        width="18"
-                        height="18"
-                        rx="3"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                      />
-                    </svg>
-                  </div>
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="text-white"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                      >
+                        <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.866-.013-1.699-2.782.605-3.369-1.343-3.369-1.343-.454-1.157-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.004.071 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.56 9.56 0 0 1 2.504.337c1.909-1.296 2.748-1.026 2.748-1.026.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.31.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.481A10.02 10.02 0 0 0 22 12.017C22 6.484 17.523 2 12 2Z" />
+                      </svg>
+                    </a>
+                  )}
                 </div>
 
                 <div className="mt-6 flex flex-col items-start gap-6">
@@ -221,6 +238,8 @@ export default function Projects(): React.JSX.Element {
                           src={project.webUrl}
                           title={project.title}
                           loading="lazy"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerPolicy="strict-origin-when-cross-origin"
                           allowFullScreen
                           className="h-full w-full border-0 bg-white"
                         />
